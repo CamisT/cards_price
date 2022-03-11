@@ -1,0 +1,86 @@
+html, body { 
+    height: 100%;
+    margin: 0;
+    background-image: url(assets/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.pricing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:hsl(239, 28%, 28%);
+    font-size: 30px;
+    padding: 30px;
+    margin-top: 10px;
+}
+
+
+.toggle {
+    display: flex;
+    justify-content:center;
+    margin: 10px;
+    gap: 25px;
+
+}
+
+.professional {
+    background-image: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    width: 20vw;
+    border-radius: 10px;
+    height: 430px;
+    padding: 40px;
+    min-width: 300px;
+    text-align: center;
+
+    
+}
+
+.professional {
+    color: white
+}
+
+.basic {
+    background-color: hsl(240, 78%, 98%);
+    width: 20vw;
+    height: 420px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+.master {
+    background-color: hsl(240, 78%, 98%);
+    width: 20vw;
+    height: 420px;
+    text-align: center;
+    border-radius: 10px;
+    padding:20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+body {
+    background-color: hsl(240, 34%, 82%);
+    position: relative;
+    font-size: 15px;
+    
+}
